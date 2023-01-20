@@ -19,7 +19,7 @@
 - Also, feel free to contribute to the tool's development with a PR.
 
 # How to use
-The tool supports Windows 10 and Ubuntu.
+The tool supports Windows 10 and Ubuntu (and possibly Debian, but this is untested). Getting it to run on other Unix-based operating systems will require swapping out the package managers used in `install.sh`.
 
 It can used as a sub-module, so if you want to include it in a bigger set of scripts, you can do that 🙂. Just import _00_back_end.SERPENT_back_end and you are good to go.
 
