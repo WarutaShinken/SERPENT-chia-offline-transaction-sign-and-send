@@ -9,7 +9,7 @@
 
 ## Contributors
 
-![alt text](https://c.tenor.com/FDwYMy302gMAAAAM/tumbleweed-silence.gif?raw=true)
+- [WarutaShinken](https://github.com/WarutaShinken) - Ubuntu Source Install
 
 # Feedback/ Contribution
 - Please post any issues you encountered or any feature requests using the issues tab.
@@ -26,8 +26,31 @@ NOTE#1: Using it as a sub-module may get you to fall into a rabbit hole. For tha
 NOTE#2: Long story short you have 3 ways to use SERPENT in your scripts:
 
   - M#1 using the SERPENT class directly  
-  - M#2 using _00_CLI.py to direct your queries (recommended)  
+  - M#2 using a source install of SERPENT
   - M#3 using the compiled CLI exe (more I/O overhead then M#2)
+
+## Source Install
+
+Just like with Chia, you can install and run SERPENT from source.
+
+### Installation
+
+```
+git clone https://github.com/ageorge95/SERPENT-chia-offline-transaction-sign-and-send serpent
+cd serpent
+install.sh # if you're on Linux
+Install.bat :: if you're on Windows
+```
+
+### Running
+
+Just like with Chia, you can install and run SERPENT from source:
+
+```
+activate
+serpent -h
+deactivate
+```
 
 ## WINDOWS usage - instructions
 

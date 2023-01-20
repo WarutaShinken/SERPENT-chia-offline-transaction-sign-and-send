@@ -21,9 +21,9 @@ from tkinter import tix,\
     NONE
 import asyncio
 
-from _00_SERPENT_base import configure_logger_and_queue,\
+from src._00_SERPENT_base import configure_logger_and_queue,\
     handle_SERPENT_config
-from _00_back_end import SERPENT
+from src._00_back_end import SERPENT
 
 class buttons_label_state_change():
     entry_coin_filter: Entry
