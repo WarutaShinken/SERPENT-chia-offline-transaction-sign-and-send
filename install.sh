@@ -62,5 +62,7 @@ Join the Discord server for support: https://discord.gg/yPdCmHSgMe
 Run '. ./bin/activate' to activate SERPENT's Python virtual environment and
 'deactivate' to, well, deactivate it.
 
+Run 'sh install-gui.sh' inside the Python virtual environment to install the GUI's dependencies.
+
 Run 'serpent -h' for further instructions.
 "

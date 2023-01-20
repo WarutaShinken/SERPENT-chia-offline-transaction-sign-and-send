@@ -327,7 +327,13 @@ class App():
 
         self.root = root
         self.root.title('SERPENT-chia-offline-transaction-sign-and-send | ' + open('version.txt' if path.isfile('version.txt') else path.join(sys._MEIPASS, 'version.txt') , 'r').read())
-        self.root.iconbitmap('icon.ico' if path.isfile('icon.ico') else path.join(sys._MEIPASS, 'icon.ico'))
+
+        if os.name == 'nt':
+            self.root.iconbitmap('icon.ico' if path.isfile('icon.ico') else path.join(sys._MEIPASS, 'icon.ico'))
+        else:
+            # https://stackoverflow.com/a/64042079
+            icon = tk.PhotoImage(file='icon.png')
+            root.wm_iconphoto(True, img)
 
         sponsor_frame = ttk.Labelframe(text="Sponsor")
         sponsor_frame.grid(row=0, column=0, sticky="nsw")
