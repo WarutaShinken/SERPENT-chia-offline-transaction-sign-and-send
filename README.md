@@ -19,7 +19,7 @@
 - Also, feel free to contribute to the tool's development with a PR.
 
 # How to use
-The tool was designed mainly for Windows, but should work on every OS where python is supported.
+The tool supports Windows 10 and Ubuntu.
 
 It can used as a sub-module, so if you want to include it in a bigger set of scripts, you can do that 🙂. Just import _00_back_end.SERPENT_back_end and you are good to go.
 
