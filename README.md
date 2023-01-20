@@ -9,7 +9,9 @@
 
 ## Contributors
 
-- [WarutaShinken](https://github.com/WarutaShinken) - Ubuntu Source Install
+- [WarutaShinken](https://github.com/WarutaShinken)
+  - Ubuntu Source Install
+  - Python virtual environment on Windows
 
 # Feedback/ Contribution
 - Please post any issues you encountered or any feature requests using the issues tab.
@@ -42,13 +44,23 @@ install.sh # if you're on Linux
 Install.bat :: if you're on Windows
 ```
 
-### Running
+### CLI
 
-Just like with Chia, you can install and run SERPENT from source:
+Activate the Python virtual environment to use SERPENT's CLI:
 
 ```
 activate
 serpent -h
+deactivate
+```
+
+### GUI (Windows only)
+
+You can either run `START_SERPENT_GUI.bat` or use the following commands:
+
+```
+activate
+gui_serpent
 deactivate
 ```
 

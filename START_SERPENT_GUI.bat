@@ -1,3 +1,4 @@
-TITLE Serpent GUI
-python _00_GUI.py
+title Serpent GUI Console
+call activate
+gui_serpent
 pause
